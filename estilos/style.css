@@ -7,14 +7,18 @@
 }
 
 body{
-    background-color: white;
+    background-color: rgba(107, 223, 255, 0.225);
+    width: 100vw;
+    height: 100vh;
 }
 
 section{
     background-color: black;
     border-radius: 20px;
     padding: 30px;
-
+    width: 80vw;
+    margin: auto;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.463);
 }
 
 a{
@@ -27,12 +31,24 @@ a:hover{
     color:rgb(0, 191, 244);
 }
 
+picture > img{
+    width: 300px;
+    height: 300px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.455);
+    background-color: white;
+    border-radius: 5px;
+    margin: auto;
+    display: block;
+    transform: translateY(50px);
+}
+
 article#qr-code{
     background-image: linear-gradient(to right, rgb(0, 191, 244), rgb(26, 26, 255));
-    width: 500px;rgb(173, 189, 230)rgb(9, 64, 203)rgb(8, 63, 203)rgb(21, 74, 210);
-    height: 500px;
+    width: 80vw;
+    height: 60vh;
     margin: auto;
     border-radius: 10px;
+    display: block;
 }
 
 article#text{
