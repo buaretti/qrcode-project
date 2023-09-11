@@ -16,9 +16,13 @@ section{
     background-color: black;
     border-radius: 20px;
     padding: 30px;
-    width: 80vw;
+    width: 400px;
     margin: auto;
     box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.463);
+    transform: translateY(12.5px);
+
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease;
 }
 
 a{
@@ -39,13 +43,13 @@ picture > img{
     border-radius: 5px;
     margin: auto;
     display: block;
-    transform: translateY(50px);
+    transform: translateY(70px);
 }
 
 article#qr-code{
     background-image: linear-gradient(to right, rgb(0, 191, 244), rgb(26, 26, 255));
-    width: 80vw;
-    height: 60vh;
+    width: 400px;
+    height: 450px;
     margin: auto;
     border-radius: 10px;
     display: block;
